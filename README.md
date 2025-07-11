@@ -20,7 +20,7 @@
 
 2. **Installation**
     - Download the [OneSwitchPulse](https://oneswitch.org.uk/page/one-switch-pulse) software package from OneSwitch.org.uk, and extract the .zip file in a folder of your choice
-    - Extract the content of the `picoPulse.zip` **to the same folder**; this should overwrite some files of the JoyToKey configuration settings
+    - Download [picoPulse.zip](https://github.com/asterics/PicoPulse/releases/latest/download/picoPulse.zip) and extract the content **to the same folder** as the OneSwitchPulse package (this should overwrite some files of the JoyToKey configuration settings)
     - Install the firmware on your Raspberry Pi Pico:
         - Press and hold the white _Bootsel_ button when you plug in the USB cable; a USB drive should open.
         - Copy the firmware file (.uf2) onto this drive (into the root folder, can by done via drag-and-drop).
