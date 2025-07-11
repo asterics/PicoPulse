@@ -28,6 +28,9 @@
         - For the RP Pico2 / Pico2W, use the file `picoPulse_Firmware/picoPulse_2350.ino.uf2`
 	- When you start _JoyToKey_ for the first time, make sure that the RP Pico is recognized as _Joystick 1_. This can be configured in the _JoyToKey_ options dialog, see image `JoyToKey_JoystickConfig.png`
 
+![screenshot of JoyToKey joystick configration settings](JoyToKey_JoystickConfig.png)
+
+
 3. **Usage**
     - Start _picoPulse_, _JoyToKey_ and _GTuner_:
         - right-click `pulseControl.exe` in the subfolder `picoPulse/pulseControl` and select _run as administrator_
@@ -45,6 +48,9 @@
         - `Shift+F10`: decrease pulse time (faster)
         - `Shift+F9`: increase pulse time (slower)
         - `Shift+F8`: enable / disable audio click
+
+
+![image of pico pulse with 2 buttons on a breadboard](img/breadboard_photo.jpg)
 
 ## License
 
