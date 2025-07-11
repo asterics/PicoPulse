@@ -28,7 +28,7 @@
         - For the RP Pico2 / Pico2W, use the file `picoPulse_Firmware/picoPulse_2350.ino.uf2`
 	- When you start _JoyToKey_ for the first time, make sure that the RP Pico is recognized as _Joystick 1_. This can be configured in the _JoyToKey_ options dialog, see image `JoyToKey_JoystickConfig.png`
 
-![screenshot of JoyToKey joystick configration settings](JoyToKey_JoystickConfig.png)
+![screenshot of JoyToKey joystick configuration settings](img/JoyToKey_JoystickConfig.png)
 
 
 3. **Usage**
