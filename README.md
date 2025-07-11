@@ -14,7 +14,7 @@
         - Connect a button to GP2 (pin 4) for starting/stopping automatic pulsing at any time
         - Connect a button to GP3 (pin 5) for decreasing pulse time  
         - Connect a button to GP4 (pin 6) for increasing pulse time
-        - Connect a piezo-buzzer to GP5 (pin 7) for receiving auditory feedback (connect the other pin of the buzzer to GND)
+        - Connect a piezo-buzzer to GP5 (pin 7) for receiving auditory feedback
     - Note: connect the other pin of the buttons (or buzzer) to GND - e.g. pin 3. Pin numbers are given for the original [RP Pico boards](https://docs.micropython.org/en/latest/_images/pico_pinout.png).
     - The [FABI](https://github.com/asterics/FABI) device could be used instead of a bare RP Pico board. The FABI board supports better user feedback (LCD, buzzer/tones, Neopixel LED) and offers 5 jack plug connectors. (For the FABI, a dedicated firmware file is provided.)
 
