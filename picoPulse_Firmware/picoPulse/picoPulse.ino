@@ -10,14 +10,17 @@
 #define SEND_DEBUG_MESSAGES 0
 
 #define NUMBER_OF_BUTTONS 5
+int buttonPinMap [NUMBER_OF_BUTTONS] = {0,1,2,3,4};
+
+#define SELECT_BUTTON 0
+#define SKIP_BUTTON   1
 #define ON_OFF_BUTTON 2
 #define SLOWER_BUTTON 3
 #define FASTER_BUTTON 4
 
-#define PULSING_GAMEPAD_BUTTON 2
-#define BUZZER_PIN 2
-int buttonPinMap [NUMBER_OF_BUTTONS] = {11,9,8,4,3};
+#define BUZZER_PIN 5
 
+#define PULSING_GAMEPAD_BUTTON 2
 #define PULSE_TIME_MIN 200
 #define PULSE_TIME_MAX 10000
 #define PULSE_TIME_STEP 250
